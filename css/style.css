@@ -195,6 +195,9 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
+    .wordsection h1 span {
+        font-size: 30px;
+    }
     .images img{
         height: 400px;
         width: 30%;
