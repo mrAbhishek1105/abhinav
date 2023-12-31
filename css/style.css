@@ -1,182 +1,212 @@
-  @import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+* {
     padding: 0;
     margin: 0;
 }
-body{
-    width: 100%;
+
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #EDE6D6;
 }
-
 .hero{
-    width: 90%;
-    height: max-content;
-    display: flex;
-    justify-content: center;
     background-color: #F9BE4A;
-    margin: 75px;
-    border-radius: 25px;
 }
-
-.hero img{
-    height: 400px;
-    width: 400px;
-    margin: 40px 25px;
-    border: 5px solid #ff7675;
+.hero,
+.sem1,
+.myside,
+.formbox,
+.form {
+    width: 90%;
+    margin: 20px auto;
 }
-.wordsection{
-    width: fit-content;
-    height: 90%;
-    margin: 60px 20px;
+.sem1{
+    background-color: #D6E789;
+}
+.hero,
+.sem1,
+.myside,
+.formbox,
+.form {
     display: flex;
     flex-direction: column;
-
+    align-items: center;
 }
-.wordsection h1{
+
+.hero img,
+.sem1 img {
+    height: 300px;
+    width: 300px;
+    margin: 20px 15px;
+    border: 5px solid #ff7675;
+}
+
+.wordsection {
+    width: fit-content;
+    height: 90%;
+    margin: 30px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wordsection h1 {
     color: #2272FF;
     font-weight: 1000;
 }
+
 .wordsection h1 span {
     font-family: 'Single Day', cursive;
-    font-size: 45px;
+    font-size: 35px;
     white-space: nowrap;
     overflow: hidden;
     color: #ff7675;
     text-decoration: underline #2272FF;
-    
-  }
-.wish{
-    width: 75%;
-    font-size: 25px;
-    font-weight: 700;
-    word-spacing: 1px;
-    margin: 20px 40px;
-}
-.wordsection h4{
-    font-size: 25px;
-    background-color: #ff7675;
-    width: fit-content;
-    padding: 10px;
-    border-radius: 25px;
 }
 
-.mytext{
-    background-color: #2272FF;
-    font-size: 20px;
+.wish {
+    width: 90%;
+    font-size: 18px;
+    font-weight: 700;
     word-spacing: 1px;
-    margin-top: 100px;
+    margin: 15px 20px;
+}
+
+.wordsection h4 {
+    font-size: 18px;
+    background-color: #ff7675;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.mytext {
+    background-color: #2272FF;
+    font-size: 18px;
+    word-spacing: 1px;
+    margin-top: 50px;
     border-radius: 5px;
     padding: 10px;
 }
-.sem1{
-    width: 90%;
-    height: max-content;
-    display: flex;
-    justify-content: center;
-    background-color: #D6E789;
-    flex-direction: column;
-}
-.sem1 img{
-    align-self: center;
-    width: 350px;
-    height: 500px;
-}
 
-.word{
+.word {
     width: 80%;
     align-self: center;
     background-color: #ff7675;
     color: #FFFF;
-    font-size: 25px;
-    padding: 25px;
-    border-radius: 50px;
-    margin: 25px 10px;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 15px 10px;
 }
-.somepicofus{
+
+.somepicofus {
     display: flex;
     flex-direction: column;
 }
-.somepicofus h2{
+
+.somepicofus h2 {
     align-self: center;
-    margin: 25px 0;
+    margin: 15px 0;
     color: #2272FF;
     text-decoration: underline #ff7675;
-    font-size: 30px;
+    font-size: 25px;
+}
 
-}
-.images{
-    display: grid;
-    grid-template-columns: auto auto auto ;
-}
-.images img{
-    height: 400px;
-    width: 275px;
-}
-.images2{
-    display: grid;
-    grid-template-columns: auto auto;
-}
-.images2 img{
-    height: 400px;
-    width: 525px;
-} 
-.myside{
-    width: 90%;
+.images,
+.images2 {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
 }
-.myside h6{
-    font-size: 20px;
-    margin: 20px 10px;
+
+.images img{
+    height: 350px;
 }
-.myside p{
-    font-size: 20px;
-    margin: 20px 20px;
+.images2 img {
+    height: 250px;
+    width: 30%;
+    margin: 10px;
 }
-.thnx{
-    /* justify-self: center; */
+
+.myside {
+    margin: 15px 10px;
+}
+
+.myside h6 {
+    font-size: 16px;
+    margin: 15px 5px;
+}
+
+.myside p {
+    font-size: 16px;
+    margin: 15px 10px;
+}
+
+.thnx {
     background-color: #ff7675;
     color: #FFFF;
-    padding: 10px;
+    padding: 8px;
     width: fit-content;
 }
-.formbox{
+
+.formbox {
     width: fit-content;
     height: max-content;
     border: 2px solid #2272FF;
-    border-radius: 25px;
-    margin: 50px;
+    border-radius: 20px;
+    margin: 30px;
     padding: 5px;
 }
-.formbox p{
-    font-size: 25px;
+
+.formbox p {
+    font-size: 18px;
     background-color: #D6E789;
 }
-.form{
+
+.form {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 25px;
+    align-items: center;
+    padding: 15px;
 }
-.form input{
-    width: 250px;
-    margin-bottom: 25px;
+
+.form input,
+.form textarea {
+    width: 80%;
+    margin-bottom: 15px;
 }
-.form textarea{
-    width: 350px;
-    margin-bottom: 20px;
-}
-.form button{
+
+.form button {
     width: fit-content;
     height: fit-content;
     background-color: #ff7675;
     color: #2272FF;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 900;
-    margin: 50px;
+    margin: 30px;
     padding: 7.5px;
-    border-radius: 25px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+    .images img{
+        height: 400px;
+        width: 30%;
+    }
+    .images2 img {
+        height: 150px;
+        width: 40%;
+        margin: 10px;
+    }
+    .sem1 img {
+        height: 300px;
+        width: 100%;
+    }
+
 }
