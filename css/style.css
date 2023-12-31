@@ -1,0 +1,182 @@
+  @import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDE6D6;
+}
+
+.hero{
+    width: 90%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    background-color: #F9BE4A;
+    margin: 75px;
+    border-radius: 25px;
+}
+
+.hero img{
+    height: 400px;
+    width: 400px;
+    margin: 40px 25px;
+    border: 5px solid #ff7675;
+}
+.wordsection{
+    width: fit-content;
+    height: 90%;
+    margin: 60px 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.wordsection h1{
+    color: #2272FF;
+    font-weight: 1000;
+}
+.wordsection h1 span {
+    font-family: 'Single Day', cursive;
+    font-size: 45px;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #ff7675;
+    text-decoration: underline #2272FF;
+    
+  }
+.wish{
+    width: 75%;
+    font-size: 25px;
+    font-weight: 700;
+    word-spacing: 1px;
+    margin: 20px 40px;
+}
+.wordsection h4{
+    font-size: 25px;
+    background-color: #ff7675;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.mytext{
+    background-color: #2272FF;
+    font-size: 20px;
+    word-spacing: 1px;
+    margin-top: 100px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.sem1{
+    width: 90%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    background-color: #D6E789;
+    flex-direction: column;
+}
+.sem1 img{
+    align-self: center;
+    width: 350px;
+    height: 500px;
+}
+
+.word{
+    width: 80%;
+    align-self: center;
+    background-color: #ff7675;
+    color: #FFFF;
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 50px;
+    margin: 25px 10px;
+}
+.somepicofus{
+    display: flex;
+    flex-direction: column;
+}
+.somepicofus h2{
+    align-self: center;
+    margin: 25px 0;
+    color: #2272FF;
+    text-decoration: underline #ff7675;
+    font-size: 30px;
+
+}
+.images{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+.images img{
+    height: 400px;
+    width: 275px;
+}
+.images2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.images2 img{
+    height: 400px;
+    width: 525px;
+} 
+.myside{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.myside h6{
+    font-size: 20px;
+    margin: 20px 10px;
+}
+.myside p{
+    font-size: 20px;
+    margin: 20px 20px;
+}
+.thnx{
+    /* justify-self: center; */
+    background-color: #ff7675;
+    color: #FFFF;
+    padding: 10px;
+    width: fit-content;
+}
+.formbox{
+    width: fit-content;
+    height: max-content;
+    border: 2px solid #2272FF;
+    border-radius: 25px;
+    margin: 50px;
+    padding: 5px;
+}
+.formbox p{
+    font-size: 25px;
+    background-color: #D6E789;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.form input{
+    width: 250px;
+    margin-bottom: 25px;
+}
+.form textarea{
+    width: 350px;
+    margin-bottom: 20px;
+}
+.form button{
+    width: fit-content;
+    height: fit-content;
+    background-color: #ff7675;
+    color: #2272FF;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 50px;
+    padding: 7.5px;
+    border-radius: 25px;
+}
